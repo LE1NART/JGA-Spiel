@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="spiel.css">
+    <script defer src="spiel.js"></script>
+
+</head>
+<body>
+    <div class="content">
+        <div id="spalteEins" class="spalte">
+            <h3> Jan & Sophie</h3>
+            <div id="JansSpalten">
+                <div class="jsspalte">
+                    <button id=1 onclick="button(id)" class=""> 10 </button>
+                    <button id=2 onclick="button(id)" >20 </button>
+                    <button id=3 onclick="button(id)" >30 </button>
+                    <button id=4 onclick="button(id)" >50 </button>
+                </div>
+                <div class="jsspalte">
+                    <button id=5 onclick="button(5)"> 10 </button>
+                    <button id=6 onclick="button(6)" >20 </button>
+                    <button id=7 onclick="button(7)" >30 </button>
+                    <button id=8 onclick="button(8)" >50 </button>
+                </div>
+            </div>
+        </div>
+        <div id="spalteZwei" class="spalte">
+            <h3>"Allgemeinwissen"</h3>
+            <button id=9 onclick="button(9)" >10 </button>
+            <button id=10 onclick="button(10)" >20 </button>
+            <button id=11 onclick="button(11)" >30</button>
+            <button id=12 onclick="button(12)" >40 </button>
+            <button id=13 onclick="button(13)" >50 </button>
+        </div>
+        <div id="spalteDrei" class="spalte">
+            <h3>Sex</h3>
+            <button id=14 onclick="button(14)" >10 </button>
+            <button id=15 onclick="button(15)" >20</button>
+            <button id=16 onclick="button(16)" >30</button>
+            <button id=17 onclick="button(17)" >40 </button>
+            <button id=18 onclick="button(18)" >50 </button>
+        </div>    
+        <div id="spalteVier" class="spalte">
+            <h3>Film & TV</h3>
+            <button id=19 onclick="button(19)" >10 </button>
+            <button id=20 onclick="button(20)" >20 </button>
+            <button id=21 onclick="button(21)" >30 </button>
+            <button id=22 onclick="button(22)" >40 </button>
+            <button id=23 onclick="button(23)" >50 </button>
+        </div>
+        <div id="spalteFünf" class="spalte">
+            <h3>Musik</h3>
+            <button id=24 onclick="button(24)" >10 </button>
+            <button id=25 onclick="button(25)" >20 </button>
+            <button id=26 onclick="button(26)" >30 </button>
+            <button id=27 onclick="button(27)" >40 </button>
+            <button id=28 onclick="button(28)" >50 </button>
+        </div>   
+        <div id="spalteSechs" class="spalte">
+            <h3>Geschichte</h3>
+            <button id=29 onclick="button(29)" >10</button>
+            <button id=30 onclick="button(30)" >20 </button>
+            <button id=31 onclick="button(31)" >30 </button>
+            <button id=32 onclick="button(32)" >40 </button>
+            <button id=33 onclick="button(33)" >50 </button>
+        </div>
+        <div id="spalteSieben" class="spalte">
+            <h3>Andere Spiele</h3>
+            <button id=34 onclick="button(34)" >40 </button>
+            <button id=35 onclick="button(35)" >40 </button>
+            <button id=36 onclick="button(36)" >40 </button>
+            <button id=37 onclick="button(37)" >40 </button>
+        </div>     
+    </div>
+    <div id="popUp">
+        <p id="questionText">Frage</p>
+        <button id="awnserButton" onclick="solutionShow(awnserId)" awnserId="">Lösung</button>
+        <p id="awnserText">Antwort</p>
+        <button id="closeButton" onclick="hidePopup()">X</button>
+    </div>
+
+
+</body>
+</html>

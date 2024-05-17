@@ -1,0 +1,107 @@
+#popUp{
+    visibility: hidden;
+    opacity: 0.9;
+    height: 95dvh;
+    width: 95dvw;
+    background-color: rgb(58, 57, 57);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+p{
+    text-align: center;
+}
+#questionText{
+    color: white;
+}
+
+
+#awnserText{
+    visibility: hidden;
+    color:white;
+}
+
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+button{
+    width: 100px;
+    border-radius: 50px;
+}
+
+
+h3{
+    
+    margin:3px;
+
+}
+
+.content{
+    display:grid;
+    grid-template-columns: 50dvw 50dvw;
+    background-color: black;
+    grid-template-areas:
+    "eins eins"
+    "zwei drei"
+    "vier fünf"
+    "sechs sieben" ;
+    height: 100dvh;
+}
+
+.spalte{
+    display:flex;
+    row-gap: 2px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2px;
+    min-height: 150px;
+
+}
+
+#JansSpalten{
+    display:flex;
+    flex-direction: row;
+    column-gap: 5px;
+    
+}
+.jsspalte{
+    display:flex;
+    row-gap: 2px;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#spalteEins{
+    grid-area: eins;
+    background-color: #fbc9d4;
+}
+#spalteZwei{
+    background-color: orange;
+}
+#spalteDrei{
+    background-color: #aa2636;
+}
+#spalteVier{
+    background-color: rgb(0, 157, 255);
+}
+#spalteFünf{
+    background-color: rgb(236, 229, 8);
+}
+#spalteSechs{
+    background-color: rgb(203, 150, 3);
+}
+#spalteSieben{
+    background-color: crimson;
+}
+
+.bused{
+    background-color: rgb(170, 168, 168);
+}

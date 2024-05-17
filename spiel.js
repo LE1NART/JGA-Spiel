@@ -188,6 +188,9 @@ const fragen = [{
 
 
 function button(id){
+    let button = document.getElementById(id);
+    button.classList.add("bused")
+
 
     let popup = document.getElementById("popUp");
     popup.style.visibility = 'visible';
