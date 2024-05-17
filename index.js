@@ -180,9 +180,9 @@ const fragen = [{
 },
 {
     "fragenId":37,
-    "fragenText":"Zwei Wahrheiten eine Lüge(3Pkt): Beide Teams erzählen zwei wahre Geschichten die ihnen passiert sind und eine Lüge, das andere Team rät was die Lüge ist. ",
+    "fragenText":"Zwei Wahrheiten eine Lüge(3Pkt): Beide Teams erzählen zwei wahre Geschichten die ihnen passiert sind und eine Lüge, das andere Team rät was die Lüge ",
     "fragenAntwort":""
-},
+}
 
 ];
 
