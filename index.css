@@ -1,26 +1,31 @@
 #popUp{
     visibility: hidden;
+    opacity: 0.9;
+    height: 95dvh;
+    width: 95dvw;
+    background-color: rgb(58, 57, 57);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
+p{
+    text-align: center;
+}
+#questionText{
+    color: white;
+}
+
 
 #awnserText{
     visibility: hidden;
+    color:white;
 }
-
-/* .content{
-    display:flex;
-    flex-direction: column;
-}
-
-.reihe{
-    display:flex;
-    justify-content: space-around;
-}
-
-.spalte{
-    display: flex;
-    flex-direction: column;
-}
-*/
 
 body{
     margin: 0px;
